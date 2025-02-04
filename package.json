@@ -4,12 +4,14 @@
   "description": "testing clean architeture with tests",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.ts",
+    "start": "ts-node src/index.ts",
     "test": "test"
   },
   "author": "samuel",
   "license": "ISC",
   "devDependencies": {
-    "standard": "^17.1.2"
+    "@types/node": "^22.13.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
   }
 }
