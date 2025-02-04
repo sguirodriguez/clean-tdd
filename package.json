@@ -1,0 +1,15 @@
+{
+  "name": "clean-tdd",
+  "version": "1.0.0",
+  "description": "testing clean architeture with tests",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.ts",
+    "test": "test"
+  },
+  "author": "samuel",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.1.2"
+  }
+}
